@@ -1,0 +1,87 @@
+{
+  "intents": [{
+      "intent": "AMAZON.ResumeIntent"
+    },
+    {
+      "intent": "AMAZON.PauseIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.NavigateSettingsIntent"
+    },
+    {
+      "intent": "AMAZON.NavigateHomeIntent"
+    },
+    {
+      "intent": "AMAZON.MoreIntent"
+    },
+    {
+      "intent": "AMAZON.PageDownIntent"
+    },
+    {
+      "intent": "AMAZON.PageUpIntent"
+    },
+    {
+      "intent": "AMAZON.ScrollRightIntent"
+    },
+    {
+      "intent": "AMAZON.ScrollDownIntent"
+    },
+    {
+      "intent": "AMAZON.ScrollLeftIntent"
+    },
+    {
+      "intent": "AMAZON.ScrollUpIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.NextIntent"
+    },
+    {
+      "intent": "AMAZON.PreviousIntent"
+    },
+    {
+      "slots": [{
+        "name": "VideoType",
+        "type": "VIDEO_TYPES"
+      }],
+      "intent": "PlayVideo",
+      "samples": [
+        "Play the most recent {VideoType}",
+        "PlayVideo Play {VideoType}",
+        "PlayVideo Play a {VideoType}"
+      ]
+    },
+    {
+      "intent": "ShowVideoInfo",
+      "samples": [
+        "show the most recent quick look",
+        "whats the newest quick look",
+        "show me a quick look"
+      ]
+    },
+    {
+      "intent": "ListVideos",
+      "samples": [
+        "show me new videos",
+        "what new videos there are",
+        "list new videos"
+      ]
+    },
+    {
+      "intent": "ListVideoCategories",
+      "samples": [
+        "show me a list of categories",
+        "to show me categories",
+        "what categories there are"
+      ]
+    },
+    {
+      "intent": "ElementSelected"
+    }
+  ]
+}

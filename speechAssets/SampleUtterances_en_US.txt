@@ -1,0 +1,12 @@
+PlayVideo Play the most recent {VideoType}
+PlayVideo Play {VideoType}
+PlayVideo Play a {VideoType}
+ShowVideoInfo show the most recent quick look
+ShowVideoInfo whats the newest quick look
+ShowVideoInfo show me a quick look
+ListVideos show me new videos
+ListVideos what new videos there are
+ListVideos list new videos
+ListVideoCategories show me a list of categories
+ListVideoCategories to show me categories
+ListVideoCategories what categories there are
